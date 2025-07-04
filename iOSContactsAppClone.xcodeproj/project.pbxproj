@@ -6,8 +6,19 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F54BF5D02E17B4A600E1A07D /* ContectSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BF5C92E17B3DC00E1A07D /* ContectSection.swift */; };
+		F54BF5D12E17B4AC00E1A07D /* ContactListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BF5CC2E17B41B00E1A07D /* ContactListViewModel.swift */; };
+		F54BF5D22E17B4B000E1A07D /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BF5CF2E17B45300E1A07D /* ContactListViewController.swift */; };
+		F54BF5D32E17B4B300E1A07D /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F54BF5CE2E17B43C00E1A07D /* ContactDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F54BF5AF2E17B3A100E1A07D /* iOSContactsAppClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSContactsAppClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F54BF5C92E17B3DC00E1A07D /* ContectSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContectSection.swift; sourceTree = "<group>"; };
+		F54BF5CC2E17B41B00E1A07D /* ContactListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewModel.swift; sourceTree = "<group>"; };
+		F54BF5CE2E17B43C00E1A07D /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		F54BF5CF2E17B45300E1A07D /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -47,6 +58,9 @@
 			children = (
 				F54BF5B12E17B3A100E1A07D /* iOSContactsAppClone */,
 				F54BF5B02E17B3A100E1A07D /* Products */,
+				F54BF5C82E17B3D100E1A07D /* Models */,
+				F54BF5CB2E17B41000E1A07D /* ViewModels */,
+				F54BF5CD2E17B43500E1A07D /* Views */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +70,31 @@
 				F54BF5AF2E17B3A100E1A07D /* iOSContactsAppClone.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F54BF5C82E17B3D100E1A07D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F54BF5C92E17B3DC00E1A07D /* ContectSection.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F54BF5CB2E17B41000E1A07D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F54BF5CC2E17B41B00E1A07D /* ContactListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F54BF5CD2E17B43500E1A07D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F54BF5CF2E17B45300E1A07D /* ContactListViewController.swift */,
+				F54BF5CE2E17B43C00E1A07D /* ContactDetailViewController.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,6 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F54BF5D12E17B4AC00E1A07D /* ContactListViewModel.swift in Sources */,
+				F54BF5D02E17B4A600E1A07D /* ContectSection.swift in Sources */,
+				F54BF5D32E17B4B300E1A07D /* ContactDetailViewController.swift in Sources */,
+				F54BF5D22E17B4B000E1A07D /* ContactListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +192,6 @@
 				INFOPLIST_FILE = iOSContactsAppClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -176,7 +218,6 @@
 				INFOPLIST_FILE = iOSContactsAppClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
